@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Form No. 1</legend>
+        <label for="email">UserName : </label>
+        <input type="text" name="Username" id="email" placeholder="Email / Phone">
+        <br/>
+        <br/>
+        <label for="pass"> Password :</label>
+        <input type="text" name="Password" id="pass" placeholder="Pin">
+        <br/>
+        <br/>
+        <!-- We Can create the button by input tag also and also use the button tag to create the button -->
+        <input type="button" value="Submit">
+    </fieldset>
+    </form>
+    <!-- <button>Submit</button> -->
+
+    <br><br><br>
+    <form>
+        <fieldset>
+        <label for="datepicker">Select Date</label>
+        <input type="date" id="datepicker">
+        <br><br>
+        <select name="Gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+
+        <br>
+        <br>
+        <label for="desc">Write About Yourself in 100 words</label>
+        <textarea name="Description" id="desc" cols="30" rows="10"></textarea>
+        <legend>Form No. 2</legend>
+        
+        <!-- For choose a file in system  -->
+        <input type="file" name="file-select" id="file">
+    </fieldset>
+    </form>
+
+    <form>
+        <fieldset>
+            <legend>Form No. 3</legend>
+            <label for="male">Male</label>
+            <input type="radio" name="Gender" id="male"> 
+            <br>
+            <label for="">Female</label>
+            <input type="radio" name="Gender" id="female">
+            <br>
+            <label for="">Others</label>
+            <input type="radio" name="Gender" id="others">
+            <br>
+        </fieldset>
+    </form>
+
+
+    <form>
+        <fieldset>
+            <legend>Form No. 4</legend>
+            <label for="male">Male</label>
+            <input type="checkbox" name="Gender" class="radio" value="gender">
+            <br>
+            <label for="">Female</label>
+            <input type="checkbox" name="Gender" class="radio" value="gender">
+            <br>
+            <label for="">Others</label>
+            <input type="checkbox" name="Gender" class="radio" value="gender">
+            <br>
+
+
+            <input type="image" name="images" id="img" src="./chatapp_icon.png" alt="Loading..." width="50px" height="50px">
+        </fieldset>
+    </form>
+
+
+    <section>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod doloremque exercitationem non labore molestias consequuntur laboriosam? Recusandae repudiandae labore distinctio maxime illum reiciendis!</p>
+        
+            
+            <div>
+                <h1 title='""Ankit KIET &QUOT;MCA&QUOT; 2023"'><q>this is a heading of top most priority</q></h1>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

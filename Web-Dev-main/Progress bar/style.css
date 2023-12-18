@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.slider_cont{
+    display: flex;
+    height: 50vh;
+    width: 100vw;
+    justify-content: center;
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+.center{
+    overflow: hidden;
+}

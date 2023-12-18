@@ -1,0 +1,46 @@
+legend h2 a{
+    font-size: larger;
+    text-decoration: none;
+}
+legend h2 a:hover{
+    color: blue;
+}
+fieldset legend{
+    text-align: center;
+}
+*{
+    font-size: large;
+    background-color: rgb(65, 64, 64);
+    color: white;
+}
+.link:hover{
+    color: blue;
+}
+.foot{
+    text-align: center;
+}
+
+.cont{
+    display: -webkit-box;
+    
+}
+
+.projects:hover{
+    color: blue;
+}
+.profilepic{
+    position: relative;
+    left: 360px;
+}
+.projects{
+    text-decoration: none;
+}
+.link{
+    text-decoration: none;
+}
+.projects{
+    text-decoration: none;
+}
+.projects:hover{
+    color: blue;
+}

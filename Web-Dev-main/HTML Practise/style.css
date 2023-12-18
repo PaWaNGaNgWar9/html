@@ -1,0 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(190, 175, 183);
+}
+.image{
+    mix-blend-mode: multiply;
+}

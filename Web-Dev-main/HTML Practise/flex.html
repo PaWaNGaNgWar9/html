@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox tutorial</title>
+    <style>
+        .container{
+            background-color: rgb(106, 63, 11);
+            padding: 2px;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            margin: 2px;
+            flex-wrap: none;
+        }
+        .box{
+            padding: 2px;
+            margin: 2px;
+            height: 100px; 
+            width: 100px;
+        }
+
+        #box1{
+            background-color: aqua;
+        }
+        #box2{
+                background-color: blue;
+        }
+        #box3{
+            background-color: brown;
+        }
+        #box4{
+            background-color: purple;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1"></div>
+        <div class="box" id="box2"></div>
+        <div class="box" id="box3"></div>
+        <div class="box" id="box4"></div>
+    </div>
+</body>
+</html>
